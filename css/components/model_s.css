@@ -1,0 +1,26 @@
+@font-face {
+	font-family: Gotham_Medium;
+	src: url(../../fonts/Gotham_Medium/Gotham_Medium.otf)
+}
+
+.model-s {
+	height: 50vh;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.model-s-title {
+	/* display: flex; */
+	font-size: 40px;
+	font-family: Gotham_Medium, arial;
+	opacity: 0.6;
+}
+
+.model-s-order {
+	/* display: flex; */
+	font-size: 24px;
+	font-family: Gotham_Medium, arial;
+	opacity: 0.7;
+}

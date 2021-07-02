@@ -1,34 +1,64 @@
+@font-face {
+	font-family: Gotham_Book;
+	src: url(../../fonts/Gotham_Book/Gotham_Book.otf)
+}
+
 ul {
 	list-style-type: none;
 }
 
 .banner {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	font-family: Gotham_Book, arial;
+	font-size: 16px;
+	height: 40px;
 }
 
 .brand-title {
 	display: flex;
+	text-align: center;
+	justify-content: center;
 }
 
 .products {
 	display: flex;
+	text-align: center;
+	justify-content: center;
 }
 
 .menu {
 	display: flex;
+	text-align: center;
+	justify-content: center;
 }
 
 .product-element {
-	padding: 5px;
 	color: rgb(24, 28, 33);
+	padding: 0 10px;
+	
 }
 
 .menu-element {
-	padding: 5px;
 	color: rgb(24, 28, 33);
+	padding: 0 10px;
 }
 
 #tesla {
 	color: rgb(24, 28, 33);
+	height: 40px;
+	display: flex;
+	align-items: center;
+	margin-left: 40px;
+}
+
+#tesla-logo {
+	height: 40%;
+	width: auto;
+}
+
+#last-elem-menu {
+	margin-right: 40px;
 }

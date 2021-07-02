@@ -1,5 +1,6 @@
 @import url("components/banner.css");
-@import url("components/body.css");
+@import url("components/main_container.css");
 @import url("components/feature.css");
 @import url("components/button.css");
 @import url("components/model_s.css");
+@import url("components/blank_space.css");

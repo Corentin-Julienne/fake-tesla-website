@@ -14,7 +14,10 @@ ul {
 	text-align: center;
 	font-family: Gotham_Book, arial;
 	font-size: 16px;
-	height: 40px;
+	height: 10vh;
+	width: 100vw;
+	margin-top: -20px;
+	margin-bottom: 20px;
 }
 
 .brand-title {
@@ -33,12 +36,12 @@ ul {
 	display: flex;
 	text-align: center;
 	justify-content: center;
+	margin: 0;
 }
 
 .product-element {
 	color: rgb(24, 28, 33);
 	padding: 0 10px;
-	
 }
 
 .menu-element {
@@ -47,7 +50,6 @@ ul {
 }
 
 #tesla {
-	color: rgb(24, 28, 33);
 	height: 40px;
 	display: flex;
 	align-items: center;
@@ -57,6 +59,7 @@ ul {
 #tesla-logo {
 	height: 40%;
 	width: auto;
+	margin: 0;
 }
 
 #last-elem-menu {

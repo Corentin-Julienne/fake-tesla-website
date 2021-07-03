@@ -22,7 +22,7 @@
 	justify-content: center;
 }
 
-#order {
+.order {
 	margin-left: 10px;
 	margin-right: 10px;
 	width: 360px;
@@ -35,7 +35,7 @@
 	border-style: none;
 }
 
-#inventory {
+.inventory {
 	margin-right: 10px;
 	margin-left: 10px;
 	width: 360px;
